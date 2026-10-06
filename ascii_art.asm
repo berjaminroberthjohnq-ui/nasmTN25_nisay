@@ -1,7 +1,7 @@
 
 section .data
 
-    ; Rose flower
+    
     flower db 10
            db "                         .-''''-.", 10
            db "                    _.-'          '-._", 10
@@ -47,12 +47,12 @@ section .data
            db "                            ||||              \_/", 10
     leavesLen equ $ - leaves
 
-    ; Thorns attached to the stem
+  
     thorns db "                      <----||||", 10
            db "                            ||||---->", 10
     thornsLen equ $ - thorns
 
-    ; Roots
+    
     roots db "                           /||||\", 10
           db "                          / |||| \", 10
           db "                     ____/  ||||  \____", 10
